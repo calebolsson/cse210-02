@@ -79,9 +79,9 @@ class Director:
         if not self.is_playing:
             return
 
-        if self.guess and self.card.is_greater:
+        if self.guess and self.card.isGreater:
             self.score = 100
-        elif (not self.guess) and (not self.card.is_greater):
+        elif (not self.guess) and (not self.card.isGreater):
             self.score = 100
         else:
             self.score = -75
