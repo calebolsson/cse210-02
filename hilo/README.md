@@ -1,3 +1,5 @@
+# cse210-02
+
 Hilo is played according to the following rules.
 
 The player starts the game with 300 points.
